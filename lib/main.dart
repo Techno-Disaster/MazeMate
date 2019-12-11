@@ -9,6 +9,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) => MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Mazegen',
         theme: ThemeData(primarySwatch: Colors.blue),
         home: HomePage(),
